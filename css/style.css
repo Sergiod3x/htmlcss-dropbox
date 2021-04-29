@@ -91,3 +91,64 @@ li{
     border: 1px solid black;
 }
 
+.core-conteiner{
+    padding-top: 150px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.plan-title{
+    width: 100%;
+    border: 1px solid black;
+    height: 30px;
+}
+
+.radio-b{
+    width: 100%;
+    border: 1px solid black;
+    height: 30px;
+}
+
+.professional{
+    width: calc((100%)/3);
+    height: 800px;
+    border: 1px solid black;
+}
+
+.standard{
+    width: calc((100%)/3);
+    height: 800px;
+    border: 1px solid black;
+}
+
+.advanced{
+    width: calc((100%)/3);
+    height: 800px;
+    border: 1px solid black;
+}
+.enterprise{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.pattern-find{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.find-img{
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.find-text{
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+
+
