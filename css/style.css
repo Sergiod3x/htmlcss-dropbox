@@ -210,3 +210,33 @@ input {
     width: calc(100%/3);
     border: 1px solid black;
 }
+
+.partner-container{
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.partner-title{
+    width: 900px;
+    color: red;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.partner-box-container{
+    border: 1px solid black;
+}
+
+.p-small-box-container{
+    width: calc(100%/3);
+    height: calc(100vw/3);
+    border: 1px solid black;
+    
+}
+
+.small-box{
+    width: calc(100%/2);
+    height:calc(100vw/6);
+    border: 1px solid black;
+}
