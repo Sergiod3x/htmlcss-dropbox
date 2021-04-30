@@ -199,4 +199,14 @@ input {
     height: auto;
 }
 
+.info-box-container{
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 100%;
+}
 
+.info-box{
+    height: 300px;
+    width: calc(100%/3);
+    border: 1px solid black;
+}
