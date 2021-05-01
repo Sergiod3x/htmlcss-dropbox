@@ -150,7 +150,7 @@ input {
 }
 .standard , .professional , .advanced{
     width: calc((100%/3) - 54px);
-    height: 800px;
+    height: 850px;
     border: 1px solid rgb(224,224,224)
     ;
 }
@@ -185,6 +185,7 @@ input {
 }
 .specifiche{
     color: rgb(174,174,174);
+    height: 60px;
 }
 
 .small-hr{width: 25%;}
