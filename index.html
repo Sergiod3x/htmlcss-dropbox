@@ -13,20 +13,20 @@
         <!-- nella NAV ogni UL è una sezione della stessa -->
         <nav class="topbar clearfix">
             <ul class="logo fl">
-                <li>
+                <li class="tit">
                     <img src="./img/logo-small.png" alt="">
                 </li>
             </ul>
             <ul class="nav-l fl">
-                <li> Perché Dropbox?</li>
-                <li> Funzioni </li>
-                <li> Piani e prezzi</li>
+                <li class="tit"> Perché Dropbox?</li>
+                <li class="tit"> Funzioni </li>
+                <li class="tit"> Piani e prezzi</li>
             </ul>
             <ul class="nav-r fr">
-                <li> Supporto</li>
-                <li> Contatta l'ufficio vendite</li>
-                <li> Piani e prezzi</li>
-                <li>
+            <li class="tit"> Supporto</li>
+            <li class="tit"> Contatta l'ufficio vendite</li>
+            <li class="tit"> Piani e prezzi</li>
+            <li class="tit">
                      <div class="button">
                     Inizia
                 </div> 
@@ -68,30 +68,49 @@
     <div class="core-conteiner">
         <div class="plan-container clearfix">
             <div class="plan-title fl">
-                <h1>Trova il piano Dropbox Buisnes che fa per te</h1>
+                <h1>Trova il piano Dropbox Business che fa per te</h1>
             </div>
-            <div class="radio-b fl">    
+            <!-- Radio button -->
+            <div class="radio-b fl mrg-l">    
                 <input type="radio" id="mensile" name="fatturazione" value="mensile" checked="checked">
-                    <label for="mensile">Fatturazione mensile</label>
-                    <input type="radio" id="annuale" name="fatturazione" value="annuale">
-                    <label for="annuale">Fatturazione annuale</label>
-                </div>
-
-            <div class="professional fl">
-                <div class="title-box"> Singolo</div>
-                <div class="professional-cont">
-                    <div class="level-title">Professional</div>
-                    <div class="price">19,99</div>
-                    <div class="specifiche">/mese</div>
-                    <div class="n-utenti">1 utente</div>
-                    <div class="space">3 TB di spazio di archiviazione sicuro</div>
-                    <div class="function">Funzoni di produttività premium e condivisione file semplice e sicura</div>
-                    <div class="button demo">Prova gratis per 30 giorni</div>
-                    <div class="acquisto">oppure <a href="127.0.0.1">acquista ora</a></div>
-                </div>
+                <label for="mensile">Fatturazione mensile</label>
+                <input type="radio" id="annuale" name="fatturazione" value="annuale">
+                <label for="annuale">Fatturazione annuale</label>
             </div>
-            <div class="standard fl"></div>
-            <div class="advanced fl"></div>
+
+
+
+            <div class="plan clearfix">
+                <div class="professional fl">
+                    <div class="plan-family"> Singolo</div>
+                    <div class="professional-cont">
+                        <div class="level-title mrg-l">Professional</div>
+                        <div class="price mrg"> <b> 19,99 €</b></div>
+                        <div class="specifiche mrg">/mese</div>
+                        <div class="n-utenti mrg-xl">1 utente</div>
+                        <div class="space mrg">3 TB di spazio di archiviazione sicuro</div>
+                        <div class="function mrg">Funzoni di produttività premium e condivisione file semplice e sicura</div>
+                        <div class="button demo mrg-xl">Prova gratis per 30 giorni</div>
+                        <div class="acquisto mrg-l">oppure <a href="127.0.0.1">acquista ora</a></div>
+                        <div class="small-hr mrg-xl"><hr></div>
+                        <div class="last-title mrg-l"><h3>Punti salienti del piano</h4></div>
+                        <ul>
+                          <li class="dot">
+                              <div class="spunta"></div>
+                              <div class="dot-text fl"> invia file fino a 100 GB con Dropbox Transfer</div>
+                            </li>
+                          <li class="dot">Cartelle offline su dispositivi mobili</li>
+                          <li class="dot">Pulizia remota dell'account</li>
+                          <li class="dot">Filigrana documento</li>
+                          <li class="dot">ssistenza prioritaria via email e chat</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="standard fl"></div>
+                <div class="advanced fl"></div>
+            </div>
+
+
             <div class="enterprise fl"></div>
         </div>
         <div class="partner-find clearfix">
