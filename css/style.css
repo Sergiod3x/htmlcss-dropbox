@@ -273,3 +273,15 @@ input {
     text-align: right;
 
 }
+
+footer{
+    height: 600px;
+    color: white;
+    background-color: black;
+    margin-top: 200px;
+}
+
+.footer-data{
+    width: 900px;
+    margin: 0 auto;
+}
