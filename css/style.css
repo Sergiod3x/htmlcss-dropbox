@@ -116,9 +116,15 @@ nav{
 
 .img{
     width: 60%;
-    height: 350px;
+
     /* border: 1px solid black; */
 }
+
+.img.resized{
+    width: 1000px;
+    height: auto;
+}
+
 
 .core-conteiner{
     padding-top: 150px;
@@ -196,13 +202,6 @@ input {
     padding-top: 20px;
 }
 
-/* inserisco la spunta prima del testo nei punti salienti
-.dot::before{
-    content: " ✓";
-    color: rgb(0,97,255);
-    margin-right: 5px;
-} */
-
 .check{
     color: rgb(0,97,255);
     width: 6%;
@@ -217,61 +216,142 @@ input {
 }
 
 .enterprise{
+    border: 1px solid rgb(224,224,224);
     width: 100%;
-    height: 200px;
-    border: 1px solid black;
+    height: 215px;
+    margin-top: 50px;
 }
 
-.pattern-find{
+.team-container{
+    /* soluzione relativamente elegante */
+    width : calc((100%) - 54.04px);
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.team-l{
+    width: 70%;
+    line-height: 40px;
+}
+
+.team-r{
+    width: 30%;
+    text-align: right;
+}
+
+.button.vendite{
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+}
+
+.partner-find{
+    margin-top: 50px;
     width: 100%;
     height: 500px;
-    border: 1px solid black;
 }
 
 .find-img{
     width: 50%;
     height: 500px;
-    border: 1px solid black;
+    background-image: url(../img/partner.png);
+    background-size: contain;
 }
 
 .find-text{
-    width: 50%;
+    padding-top: 130px;
+    width : calc((50%) - 130px);
     height: 500px;
-    border: 1px solid black;
+    margin-left: 130px;
 }
 
-.img.resized{
-    width: 1000px;
-    height: auto;
+.button.find{
+    width: 150px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
 }
+
 
 .info-box-container{
-    border: 1px solid black;
-    margin-top: 20px;
+    margin-top: 100px;
     width: 100%;
+}
+
+.info-box-c-title{
+    width: 100%;
+    font-size: x-large;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .info-box{
-    height: 300px;
-    width: calc(100%/3);
-    border: 1px solid black;
+    height: 530px;
+    width: calc((100%/3) - 50px);
+}
+
+.info-box-img{
+    height: 280px;
+}
+
+.info-box-text{
+    padding-top: 30px;
+    height: 250px;
+}
+
+#info-b-due, #info-b-cinque{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+#box-uno{
+    background-image: url(../img/business-feature-switching-tools.png);
+    background-size:contain;
+}
+#box-due{
+    background-image: url(../img/business-feature-coordinate-it.png);
+    background-size:contain;
+}
+#box-tre{
+    background-image: url(../img/business-feature-multi-device.png);
+    background-size:contain;
+}
+#box-quattro{
+    background-image: url(../img/business-feature-integrations-it.png);
+    background-size:contain;
+}
+#box-cinque{
+    background-image: url(../img/business-feature-send-files-it.png);
+    background-size:contain;
+}
+#box-sei{
+    background-image: url(../img/business-feature-security.png);
+    background-size:contain;
 }
 
 .partner-container{
-    border: 1px solid black;
-    margin-top: 20px;
     width: 100%;
+    margin-top: 100px;
+}
+
+.small-partner-title{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 45px;
+    color: blue;
 }
 
 .partner-title{
+    font-size: x-large;
+    padding-right: 530px;
     width: 1200px;
-    color: red;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 .partner-box-container{
     border: 1px solid black;
+    margin-top: 50px;
 }
 
 .p-small-box-container{
@@ -292,6 +372,58 @@ input {
     height: 300px;
     border: 1px solid black;
 }
+
+.small-box{
+    line-height: calc(100vw/5);
+    vertical-align: middle;
+ }
+ 
+
+.small-box.uno{
+    background-color: green;
+}
+
+.small-box.due{
+    background-color: brown;
+}
+
+.small-box.tre{
+    background-color: cornflowerblue;
+}
+
+.small-box.quattro{
+    background-color: red;
+}
+
+.small-box.cinque{
+    background-color: red;
+}
+
+.small-box.sei{
+    background-color:skyblue ;
+}
+
+.small-box.sette{
+    background-color:darkslateblue;
+}
+
+.small-box.otto{
+    background-color: yellow;
+}
+
+img.resized-due{
+    width: 50%;
+    height: auto;
+    filter: invert(1);
+    margin: 0 auto;
+    display: block;
+    
+}
+
+.central-box{
+    background-color: black;
+}
+
 
 .questions-container{
     padding-top: 50px;
@@ -331,3 +463,4 @@ footer{
     width: 1200px;
     margin: 0 auto;
 }
+
