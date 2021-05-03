@@ -8,7 +8,7 @@
 }
 
 
-/* margin utility */
+/* utility */
 .mrg{
     margin-top: 15px;
 }
@@ -23,6 +23,10 @@
     margin-top: 50px;
 }
 
+.w-s{
+    width: 1200px;
+    position: relative;
+}
 
 .clearfix::after{
     content: "";
@@ -112,6 +116,12 @@ nav{
     margin-bottom: 20px;
     padding: 13px;
     width: 270px;
+}
+
+.grande-freccia{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
 }
 
 .img{
@@ -364,10 +374,7 @@ input {
     height:calc(100vw/6);
 }
 
-.parnter-container-bottom{
-    width: 100%;
-    height: 300px;
-}
+
 
 .small-box{
     position: relative;
@@ -394,7 +401,7 @@ input {
   
 }
 
-#central{background-color: rgb(192, 202, 204);}
+#central{background-color: rgb(221, 221, 221);}
 
 .small-box.uno{
     background-color: green;
@@ -418,7 +425,7 @@ input {
 }
 
 .small-box.sei{
-    background-color:skyblue ;
+    background-color:rgb(192, 202, 204) ;
 }
 
 .small-box.sette{
@@ -427,6 +434,43 @@ input {
 
 .small-box.otto{
     background-color: yellow;
+}
+
+.partner-container-bottom{
+    width: 100%;
+    height: 400px;
+    background-color:rgb(192, 202, 204) ;
+    position: relative;
+}
+
+.p-c-b{
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.p-cont-bottom-text{
+    width: 70%;
+    color: rgb(139, 30, 54);
+    font-size: x-large;
+
+}
+
+.p-cont-bottom-button {
+    width: 30%;
+
+}
+
+.button.partner-cont{
+    width:70%;
+    background-color: white;
+    color: black;
+    padding: 15px;
 }
 
 img.resized-due{
@@ -453,12 +497,10 @@ img.resized-central{
 
 
 .questions-container{
-    padding-top: 50px;
+    padding-top: 130px;
     padding-bottom: 50px;
     width: 1200px;
-    color: red;
     margin: 0 auto;
-    border: 1px solid black;
     height: 500px;
 }
 
@@ -469,14 +511,23 @@ img.resized-central{
 
 
 .question-text{
+    vertical-align: middle;
+    line-height: 80px;
     width: 70% ;
-    border: 1px solid black;
+    border-top: 1px solid rgb(160, 160, 160);
 }
 .spunta{
-    width: 30%;
-    border: 1px solid rgb(243, 0, 0);
+    width: 20%;
     text-align: right;
+    vertical-align: middle;
+    font-size: large;
+    line-height: 80px;
+    border-top: 1px solid rgb(160, 160, 160);
 
+}
+
+.last{
+    border-bottom:1px solid rgb(160, 160, 160);;
 }
 
 footer{
@@ -491,3 +542,18 @@ footer{
     margin: 0 auto;
 }
 
+.foo-column{
+    padding-top: 130px;;
+    border:1px solid white;
+    width: calc((100%/5) - 24px); 
+    height: 600px;
+    margin-right:30px ;
+}
+
+.foo-column.last-c{
+    margin-right: 0px;
+}
+
+.foo-column li{
+    padding-top: 20px;
+}
