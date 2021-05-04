@@ -531,7 +531,7 @@ img.resized-central{
 }
 
 footer{
-    height: 600px;
+    height: 700px;
     color: white;
     background-color: black;
     margin-top: 200px;
@@ -544,9 +544,8 @@ footer{
 
 .foo-column{
     padding-top: 130px;;
-    border:1px solid white;
     width: calc((100%/5) - 24px); 
-    height: 600px;
+    height: 450px;
     margin-right:30px ;
 }
 
@@ -556,4 +555,21 @@ footer{
 
 .foo-column li{
     padding-top: 20px;
+}
+
+.language{
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    padding-top: 70px;
+    width: 120px;
+    color: rgba(255, 255, 255, 0.5);
+    vertical-align: middle;
+    height: 25px;
+}
+
+.language-img{
+    height: 23px;
+    filter: invert(1);
+    line-height: 23px;
+    vertical-align:middle;
+
 }
